@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AACI;EACI;AAAR,C","sources":["webpack://pressed-for-words/./src/main.scss"],"sourcesContent":["div {\n    p {\n        padding:10px;\n    }\n}"],"names":[],"sourceRoot":""}
