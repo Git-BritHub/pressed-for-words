@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "@wordpress/scripts": "^29.0.0"
-  }
+  },
+  "name": "pressed-for-words",
+  "version": "1.0.0",
+  "description": "A simple blog application showcasing the integration of React, WordPress and GraphQL",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
