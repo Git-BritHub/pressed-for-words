@@ -4,6 +4,8 @@
   "description": "A simple blog application showcasing the integration of React, WordPress and GraphQL",
   "main": "index.js",
   "scripts": {
+    "preview": "npm-run-all --parallel sync start",
+    "sync": "browser-sync start -p 'pressed-for-words.local' --files '**/*.php' 'build/*.js' 'build/*.css'",
     "build": "wp-scripts build",
     "start": "wp-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
